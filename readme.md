@@ -39,7 +39,7 @@ echo "hello world" | ./hasher -a md5
 ### 3. 交互式标准输入
 ```bash
 ./hasher -a sha1
-（输入内容后按 Ctrl+D 结束, window下 Ctrl + C 结束） 
+（输入内容后按 Ctrl+D 结束, window下 Ctrl + Z 结束 然后回车） 
 # 输入示例：test
 # 输出示例：a94a8fe5ccb19ba61c4c0873d391e987982fbbd3
 ```
@@ -85,4 +85,3 @@ echo "hello world" | ./hasher -a md5
 
 4. **输出编码**  
 所有哈希值均以十六进制小写格式输出，与 `md5sum`/`shasum` 等工具格式兼容
-```
